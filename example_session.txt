@@ -1,0 +1,18 @@
+$ ./mysh
+my-shell> $ pwd
+/home/user
+my-shell> $ ls -1
+Makefile
+README.md
+shell.c
+my-shell> $ cd /tmp
+my-shell> $ pwd
+/tmp
+my-shell> $ &t sleep 2
+# (shell spawns a thread, runs "sleep 2", and waits for it to finish)
+my-shell> $ cd -
+my-shell> $ pwd
+/
+my-shell> $ echo hello
+hello
+my-shell> $ exit
